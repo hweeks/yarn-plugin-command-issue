@@ -1,0 +1,18 @@
+{
+  "name": "plugin-issue-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build-vscode-extensions": "pnpify --sdk vscode"
+  },
+  "devDependencies": {
+    "@yarnpkg/builder": "^3.0.0-rc.2",
+    "@yarnpkg/pnpify": "3.0.0-rc.3",
+    "typescript": "^4.2.4"
+  }
+}

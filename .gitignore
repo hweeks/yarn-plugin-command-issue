@@ -1,0 +1,21 @@
+.DS_Store
+node_modules
+.env
+*.log
+pdfs
+.idea/
+
+# yarn 2 stuff
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# build artifacts
+
+dist
+public
